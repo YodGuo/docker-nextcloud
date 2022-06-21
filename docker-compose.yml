@@ -16,7 +16,7 @@ services:
 
   nextcloud:
     restart: always
-    image: quay.io/rootlogin/nextcloud:latest
+    image: nextcloud:latest
     mem_limit: 1G
     volumes:
       - /data/nextcloud:/data
