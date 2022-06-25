@@ -16,7 +16,7 @@ services:
 
   nextcloud:
     restart: always
-    image: nextcloud:latest
+    image: linuxserver/nextcloud
     mem_limit: 1G
     volumes:
       - /data/nextcloud:/data
